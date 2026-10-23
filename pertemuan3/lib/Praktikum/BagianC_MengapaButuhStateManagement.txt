@@ -1,0 +1,5 @@
+setState() cocok digunakan ketika data hanya digunakan pada satu halaman atau satu widget. 
+Namun, ketika data yang sama harus digunakan dan diperbarui oleh beberapa halaman, penggunaan 
+setState() menjadi kurang praktis karena data harus dikirim melalui constructor atau callback. 
+Oleh karena itu, Provider dapat digunakan untuk menyimpan state pada satu objek bersama sehingga 
+dapat diakses oleh beberapa halaman.
